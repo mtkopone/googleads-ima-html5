@@ -40,6 +40,9 @@ Ads.prototype.initialUserAction = function() {
 
 Ads.prototype.requestAds = function(adTagUrl) {
   var adsRequest = new google.ima.AdsRequest();
+  adsRequest.contentTitle = 'Video Title';
+  adsRequest.contentKeywords = ['Video', 'Key', 'Words'];
+  adsRequest.contentDuration = 128;
   adsRequest.adTagUrl = adTagUrl;
   adsRequest.linearAdSlotWidth = this.videoPlayer_.width;
   adsRequest.linearAdSlotHeight = this.videoPlayer_.height;
