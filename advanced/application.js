@@ -3,7 +3,7 @@
 // Note that this example is provided "as is", WITHOUT WARRANTY
 // of any kind either expressed or implied.
 
-goog.module('google3.personalization.zipit.frontend.javascript.external-javascript.ads.interactivemedia.sdk.clientside.samples.googleads-ima-html5.advanced.application');
+// goog.module('google3.personalization.zipit.frontend.javascript.external-javascript.ads.interactivemedia.sdk.clientside.samples.googleads-ima-html5.advanced.application');
 
 /**
  * Handles user interaction and creates the player and ads controllers.
